@@ -52,7 +52,7 @@ A number of options are now supported. For a comprehensive list please visit: [h
 
 MIT
 
-> **Note:** Some :LaTeX: syntax may not be supported by KaTeX itself.
+> **Note:** Some *LaTeX* syntax may not be supported by KaTeX itself.
 
 [npm-image]: https://badge.fury.io/js/astro-katex.svg
 [npm-url]: https://npmjs.org/package/astro-katex
