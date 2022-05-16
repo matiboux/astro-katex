@@ -1,0 +1,9 @@
+---
+import AstroKatex from "./AstroKatex.astro";
+
+const {equation, label = 'equation'} = Astro.props
+---
+
+<AstroKatex>
+   <p>{`\$\$\\begin{${label}} ${equation} \\end{${label}}\$\$`}</p>
+</AstroKatex>

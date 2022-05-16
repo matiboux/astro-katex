@@ -1,0 +1,31 @@
+{
+  "name": "astro-katex",
+  "description": "use KaTex and Astro",
+  "version": "1.0.0",
+  "homepage": "https://github.com/victor0x16/astro-katex#readme",
+  "author": "Victor Souza <localhost.mars2022@gmail.com>",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./ATIVE_KATEX": "./ATIVE_KATEX.astro",
+    "./Equation": "./Equation.astro"
+  },
+  "files": [
+    "index.js",
+    "ATIVE_KATEX.astro",
+    "Equation.astro"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "astro-component",
+    "katex",
+    "auto-render",
+    "component",
+    "maths",
+    "mathematics"
+  ],
+  "dependencies": {
+    "katex": "^0.15.3"
+  }
+}
