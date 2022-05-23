@@ -1,6 +1,6 @@
 # astro-katex [![NPM version][npm-image]][npm-url]
 
-![astro-katex](./images/katex.jpeg)
+![astro-katex](https://raw.githubusercontent.com/victor0x16/astro-katex/full-integration/packages/astro-katex/images/katex.jpeg)
 
 > Astro component to auto-render math in element, based on [Katex](https://github.com/KaTeX/KaTeX)
 
@@ -44,10 +44,7 @@ import AstroKatex from 'astro-katex/AstroKatex'
 </AstroKatex>
 ```
 ### Output:
- Look again at $\textbf{Figure A}$ and $\textbf{Figure B}$. Notice that in both graphs, as  $x$  approaches $7$, the output values approach $8$. This means
-  $$
-    \lim_{x \to 7} f(x) = \lim_{x \to 7} g(x)
-  $$
+ Look again at $\textbf{Figure A}$ and $\textbf{Figure B}$. Notice that in both graphs, as  $x$  approaches $7$, the output values approach $8$. This means $$\lim_{x \to 7} f(x) = \lim_{x \to 7} g(x)$$
 
 ## Using just an Expression
 
@@ -73,7 +70,7 @@ A number of options are now supported. For a comprehensive list please visit: [h
 
 MIT
 
-> **Note:** Some $\LaTeX$ syntax may not be supported by $\KaTeX$ itself.
+> **Note:** Some $\LaTeX$ syntax may not be supported by KaTeX itself.
 
 [npm-image]: https://badge.fury.io/js/astro-katex.svg
 [npm-url]: https://npmjs.org/package/astro-katex
