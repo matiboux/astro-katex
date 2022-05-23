@@ -1,6 +1,9 @@
 {
   "name": "@example/astro-katex",
-  "workspaces": ["demo", "packages/*"],
+  "workspaces": [
+    "demo",
+    "packages/*"
+  ],
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,6 +12,7 @@
     "serve": "astro --root demo preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0-beta.28"
+    "astro": "^1.0.0-beta.28",
+    "typescript": "^4.6.4"
   }
 }
