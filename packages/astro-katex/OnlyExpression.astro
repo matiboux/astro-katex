@@ -1,0 +1,14 @@
+---
+import katex from 'katex';
+
+// .replace(/<.(\/?\w+\d?).>/gm, '<$1>')}
+
+const slot: string = await Astro.slots.render('default');
+const mode: string = import.meta.env.MODE;
+const error: boolean = mode === 'production' ? false : false
+
+---
+
+<Fragment set:html={katex.renderToString(slot, {
+    throwOnError: error
+})} />
