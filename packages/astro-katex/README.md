@@ -7,20 +7,12 @@
 ## Install or <a href="https://victor0x16.github.io/demo-astro-katex/" style="color: #ff7f33;">Try it now</a>
 
 ```sh
-$ npm install --save astro-katex
+$ npm install astro-katex katex
 ```
 
 ## Usage
 
 ### Before using astro-katex
-
-#### Include in your html Katex CSS
-
-```html
-<head>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
-</head>
-```
 
 #### Add a new integration
 ```js
@@ -34,7 +26,7 @@ export default defineConfig({
 
 ```js
 ---
-import AstroKatex from 'astro-katex/AstroKatex'
+import AstroKatex from 'astro-katex/AstroKatex.astro'
 ---
 <AstroKatex is:raw>
   Look again at \(\textbf{Figure A} \) and \(\textbf{Figure B}\). Notice that in both graphs, as  \(x\)  approaches \(7\), the output values approach \(8\). This means
@@ -50,15 +42,15 @@ import AstroKatex from 'astro-katex/AstroKatex'
 
 ```js
 ---
-import Expression from 'astro-katex/OnlyExpression'
+import Expr from 'astro-katex/OnlyExpression.astro'
 ---
 
 A simple mathematical expression:
-<Expression>
+<Expr>
     \sqrt{3x-1}+(1+x)^2
-</Expression>
+</Expr>
 ```
-### Output
+### Output:
 **A simple mathematical expression:**
 $\sqrt{3x-1}+(1+x)^2$
 

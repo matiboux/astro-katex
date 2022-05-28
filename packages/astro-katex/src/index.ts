@@ -23,6 +23,7 @@ export default function (): AstroIntegration {
                     'page',
                     createScript()
                 )
+				injectScript('page-ssr', `import 'katex/dist/katex.css'`)
 			},
 		},
 	};
