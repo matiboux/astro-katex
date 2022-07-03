@@ -1,10 +1,17 @@
 # astro-katex [![NPM version][npm-image]][npm-url]
 
+<div align="center">
+
 ![astro-katex](https://raw.githubusercontent.com/victor0x16/astro-katex/full-integration/packages/astro-katex/images/katex.jpeg)
+
+</div>
 
 > Astro component to auto-render math in element, based on [Katex](https://github.com/KaTeX/KaTeX)
 
-## Install or <a href="https://victor0x16.github.io/demo-astro-katex/" style="color: #ff7f33;">Try it now</a>
+> Math in astro markdown is not working with astro > 1.0.0-beta.31. [#issue-3714](https://github.com/withastro/astro/issues/3714)
+
+
+## Install | <a href="https://codesandbox.io/s/cranky-moon-wfg8uo" style="color: #ff7f33;">Try it now</a> | <a href="https://victor0x16.github.io/demo-astro-katex/" style="color: #ff7f33;">Blog Demo</a>
 
 ```sh
 $ npm install astro-katex katex
